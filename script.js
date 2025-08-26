@@ -396,8 +396,8 @@ document.getElementById('confirm-booking').addEventListener('click', () => {
 // تهيئة الخريطة
 function initMap() {
   mapboxgl.accessToken = 'pk.eyJ1IjoiYWhtYXR5YTAwIiwiYSI6ImNtYWJxbTFoNDExNXEyanIwa2xxcmJwdWoifQ.0WU0DyTqRl9TjV-Go2O2LA'; // استبدل بمفتاحك
-  const revoliLocation = [31.2357, 30.0511]; // مركز ريفولي
-  const highCourt = [31.2358, 30.0510]; // دار القضاء العالي
+  const revoliLocation = [30.053176, 31.240385]; // مركز ريفولي
+  const highCourt = [30.052883, 31.239920]; // دار القضاء العالي
   const talaatHarb = [31.2345, 30.0500]; // ميدان طلعت حرب
   const egyptianMuseum = [31.2335, 30.0480]; // المتحف المصري
 
@@ -479,4 +479,5 @@ function initMap() {
     isRotating = !isRotating;
     toggleRotationButton.textContent = isRotating ? 'إيقاف الدوران' : 'تشغيل الدوران';
   });
+
 }
